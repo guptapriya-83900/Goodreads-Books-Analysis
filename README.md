@@ -32,6 +32,20 @@ One of the most popular and easy-to-use packages in Python to collect static dat
 The training data was collected from Goodreads' best books ever list found here: https://www.goodreads.com/list/show/1.Best_Books_Ever.
 The test data used to validate the model was collected from the list of best books of 2018, found here: https://www.goodreads.com/list/best_of_year/2018?id=119307.Best_books_of_2018
 
+Scripts used to scrape data from Goodreads. They should be run in this order:
+
+1. URL collector
+
+2. Data collector
+
+3. Image collector
+
+In case if you don't want to do web scraping for data and want data directly for your model. Then you can download data from kaggle:
+
+Best-books-ever: https://www.kaggle.com/datasets/meetnaren/goodreads-best-books?select=book_data.csv
+
+Best-books-of-2018: https://www.kaggle.com/datasets/meetnaren/goodreads-best-books-of-2018?select=book_data.csv
+
 ### Data Exploration:
 
 Data Exploration of books genres, covers, authors etc is performed for better understanding of the data and understanding the trends in data which can help us in classification.
