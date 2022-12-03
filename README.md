@@ -6,27 +6,27 @@ The Goodreads books data are used as the source of my dataset, as the amount of 
 
 **Title**
 
-**Description
+**Description**
 
-**Authors
+**Authors**
 
-**Edition
+**Edition**
 
-**Format
+**Format**
 
-**ISBN
+**ISBN**
 
-**No. of pages
+**No. of pages**
 
-**Rating
+**Rating**
 
-**No. of ratings
+**No. of ratings**
 
-**No. of reviews
+**No. of reviews**
 
-**Genres
+**Genres**
 
-**Book cover image **
+**Book cover image**
 
 One of the most popular and easy-to-use packages in Python to collect static data from web pages is BeautifulSoup, which is used in this. 
 The training data was collected from Goodreads' best books ever list found here: https://www.goodreads.com/list/show/1.Best_Books_Ever.
