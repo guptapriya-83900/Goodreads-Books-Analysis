@@ -4,18 +4,29 @@ A data science project to scrape Goodreads data and run a classifier to categori
 ### Data Collection:
 The Goodreads books data are used as the source of my dataset, as the amount of information they had on their book pages was very comprehensive and in a mostly standard format. I decided to ‘scrape’ the following pieces of information:
 
-**Title
-Description
-Authors
-Edition
-Format
-ISBN
-No. of pages
-Rating
-No. of ratings
-No. of reviews
-Genres
-Book cover image**
+**Title**
+
+**Description
+
+**Authors
+
+**Edition
+
+**Format
+
+**ISBN
+
+**No. of pages
+
+**Rating
+
+**No. of ratings
+
+**No. of reviews
+
+**Genres
+
+**Book cover image **
 
 One of the most popular and easy-to-use packages in Python to collect static data from web pages is BeautifulSoup, which is used in this. 
 The training data was collected from Goodreads' best books ever list found here: https://www.goodreads.com/list/show/1.Best_Books_Ever.
