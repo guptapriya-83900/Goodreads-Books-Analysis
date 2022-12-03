@@ -55,4 +55,6 @@ Data Exploration of books genres, covers, authors etc is performed for better un
 
 Two Recurrent neural network classifiers are used, one is Keras RNN classifier which gives accuracy of around 94% and the other is Pytorch RNN classifier which gives accuracy of around 95%. Both the models are good, but Pytorch RNN classifier is slightly better than Keras RNN classifier.
 
+### Book Recommender System:
+A simple content based Book recommender system based on author names and genres.
 
